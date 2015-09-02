@@ -1,0 +1,11 @@
+entity.brand.add_form:
+  route_name: entity.brand.add_form
+  title: 'Add Brand'
+  appears_on:
+    - entity.brand.collection
+    - entity.brand.canonical
+entity.brandconfig.add:
+  route_name: 'brandconfig.add'
+  title: 'Add Brand config'
+  appears_on:
+    - brandConfig.list

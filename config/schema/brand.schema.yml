@@ -1,0 +1,13 @@
+# Schema for the configuration files of the Brand module.
+#    brand.brand_config.*:
+#      type: config_entity
+#      label: 'Brand Config'
+#      mapping:
+#          type: string
+#          label: 'Brand identifier'
+#        uuid:
+#          type: string
+  #        label: 'UUID'
+  #      url:
+  #        type: string
+  #        label: 'Brand URL'

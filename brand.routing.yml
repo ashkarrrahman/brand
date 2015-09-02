@@ -1,0 +1,49 @@
+
+# brand routing definition
+entity.brand.canonical:
+  path: '/admin/brand/{brand}'
+  defaults:
+    _entity_view: 'brand'
+    _title: 'Brand'
+  requirements:
+    _entity_access: 'brand.view'
+
+entity.brand.collection:
+  path: '/admin/brand'
+  defaults:
+    _entity_list: 'brand'
+    _title: 'Brand list'
+  requirements:
+    _permission: 'view brand entities'
+
+entity.brand.add_form:
+  path: '/admin/brand/add'
+  defaults:
+    _entity_form: brand.add
+    _title: 'Add Brand'
+  requirements:
+    _entity_create_access: 'brand'
+
+entity.brand.edit_form:
+  path: '/admin/brand/{brand}/edit'
+  defaults:
+    _entity_form: brand.edit
+    _title: 'Edit Brand'
+  requirements:
+    _entity_access: 'brand.edit'
+
+entity.brand.delete_form:
+  path: '/admin/brand/{brand}/delete'
+  defaults:
+    _entity_form: brand.delete
+    _title: 'Delete Brand'
+  requirements:
+    _entity_access: 'brand.delete'
+
+brand.settings:
+  path: 'admin/structure/brand'
+  defaults:
+   _form: '\Drupal\brand\Entity\Form\brandSettingsForm'
+   _title: 'Brand settings'
+  requirements:
+    _permission: 'administer brand entities'

@@ -1,0 +1,5 @@
+name: Brand
+type: module
+description: Brand manipulation
+core: 8.x
+package: TGWC

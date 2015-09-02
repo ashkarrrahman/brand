@@ -1,0 +1,5 @@
+brandConfig.list:
+  title: brand
+  description: 'Administer the brand entities'
+  parent: system.admin_structure
+  route_name: brandConfig.list

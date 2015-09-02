@@ -1,0 +1,22 @@
+# Brand routing definition
+brand.settings_tab:
+  route_name: brand.settings
+  title: 'Settings'
+  base_route: brand.settings
+
+entity.brand.canonical:
+  route_name: entity.brand.canonical
+  base_route: entity.brand.canonical
+  title: 'View'
+
+entity.brand.edit_form:
+  route_name: entity.brand.edit_form
+  base_route: entity.brand.canonical
+  title: Edit
+
+entity.brand.delete_form:
+  route_name:  entity.brand.delete_form
+  base_route:  entity.brand.canonical
+  title: Delete
+  weight: 10
+

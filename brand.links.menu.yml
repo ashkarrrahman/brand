@@ -1,0 +1,12 @@
+# Brand menu items definition
+entity.brand.collection:
+  title: 'Brand list'
+  route_name: entity.brand.collection
+  description: 'List Brand entities'
+
+brand.admin.structure.settings:
+  title: Brand settings
+  description: 'Configure Brand entities'
+  route_name: brand.settings
+  parent: system.admin_structure
+
